@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+    position: fixed;
+    width:  100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.logo img {
+    padding-left: 10px;
+    max-height: 50px;
+    max-width: 100%;
+    width: auto;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+nav span {
+    display: inline-block;
+    text-decoration: underline;
+    padding-right: 30px;
+}
+
+nav a {
+    color: seashell;
+}
+
+.maincontainer {
+    padding-top: 69px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+#missionimage {
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    padding-top: 70px;
+    width: auto;
+}
+
+.missioncaption {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    display: block;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    opacity: 1;
+}
+
+#teamonth {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.teas {
+    padding: 5px;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+}
+
+.teas span {
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#locations {
+    height: 500px;
+    background-image: url(../images/img-locations-background.jpg);
+    width: auto;
+    padding-top: 70px;
+}
+
+.locations {
+    padding-top: 5px;
+}
+
+.addresses {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 280px;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    margin: 5px 20px;
+}
+
+.teacozyfooter {
+    padding-top: 20px;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
